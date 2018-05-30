@@ -1,0 +1,372 @@
+*,
+html,
+body {margin: 0px;padding: 0px;box-sizing: border-box;text-decoration: none; font-family: 'Titillium Web', sans-serif;border: none; transition: 1s; list-style: none;}
+
+
+
+.slide1{width: 100%; height: 100%; background-image: url(../img/image.jpg); background-size: cover; margin: auto;  animation: 30s slide1 linear infinite; z-index: 300; display: flex; justify-content: center; flex-direction: column; }
+@keyframes slide1 {
+    20%{background-image: url(../img/41.jpg);}
+    40%{background-image: url(../img/51.jpg);}
+    60%{background-image: url(../img/8.jpg);}
+    80%{background-image: url(../img/9.jpg);}
+    100%{background-image: url(../img/image.jpg);}
+}
+
+.headmain{
+    width: 100%; height: 100vh; position: relative; margin: auto;
+    display: flex; justify-content: center; overflow: hidden; 
+}
+
+.slogan{width: 35%; height: auto;color: #FF8C00; margin-left: 10%; padding: 8px; border: 5px solid #FF8C00; margin-bottom: 10%; }
+.sloganInner{text-align: center; font-size: 30px; font-family: 'Francois One', sans-serif;}
+.title{width: 1200px;  height: 70px; display: flex; color: #FF8C00; margin-left: 10%; margin-bottom: 10%;}
+.titleIner{text-align: center; font-size: 120px; font-family: 'Francois One', sans-serif;}
+
+
+.icons1{width: 40px; height: 500px; position: fixed; right: 0%; bottom: 15%; background-color: rgba(0, 0, 0, 0.6); border-radius: 50px 0 0 100px; z-index: 400; display: flex; justify-content: space-around; flex-direction: column; align-items: center;}
+.vc1{width: 38px; height: 39px; background-image: url(../img/fb11.png);}
+.vc2{width: 38px; height: 38px; background-image: url(../img/twitter11.png);}
+.vc3{width: 38px; height: 39px; background-image: url(../img/insta11.png);}
+.vc1:hover{background-image: url(../img/fb12.png)}
+.vc2:hover{background-image: url(../img/twitter12.png)}
+.vc3:hover{background-image: url(../img/insta12.png)}
+
+
+.vf1{width: 38px; height: 38px; background-image: url(../img/skype11.png);}
+.vf2{width: 38px; height: 28px; background-image: url(../img/gmail01.png);}
+.vf3{width: 38px; height: 40px; background-image: url(../img/viber02.png);}
+.vf1:hover{background-image: url(../img/skype12.png)}
+.vf2:hover{background-image: url(../img/gmail12.png)}
+.vf3:hover{background-image: url(../img/viber11.png)}
+.icons1 a{transform: scale(0.7)}
+
+.contabt{width: 100%; height: 190vh; display: flex; justify-content: space-around; background-image: url(../img/sport-wallpapers-2560x1600-00013.png); align-items: center; flex-direction: column; background-size: cover; padding-top: 30px;
+border-top: 8px solid #FF8C00;}
+.about{width: 90%; height: 70vh; position: relative; z-index: 300; border-radius: 20px; display: flex; justify-content: space-around; align-items: center; flex-direction: column;padding: 10px;}
+.aboutblock{display: flex; justify-content: space-around; flex-direction: column; align-items: center;}
+.sot1{width: 100%; display: flex; justify-content: space-around; align-items: center; color: #FF8C00; flex-wrap: wrap;}
+.sot2{width: 40%; display: flex; justify-content: space-around; align-items: center; color: #c3c3c3; font-size: 30px; font-weight: 200; padding: 15px 10px; border: 4px solid #FF8C00; margin-bottom: 5%;}
+.sot2 p{text-align: center;}
+.sot1 div p{font-size: 25px; font-weight: 200; padding: 15px 10px; text-align: center; border: 4px solid #c3c3c3; width: 75%; margin-top: 50px; transition: 0.5s;}
+.abouttitle h2{text-align: center; font-size: 45px; font-weight: 800; color: #c3c3c3;}
+
+
+.middle{width: 100%; height: 50%; background:rgba(255, 140, 0, 0.49); display:  flex; justify-content: space-around; align-items: center; flex-direction: column; overflow: hidden; border-top: 8px solid #c3c3c3; border-bottom: 8px solid black;}
+.line1, .line2{position: absolute; height: 70ch; width: 5px; background-color: #FF8C00; transform: rotate(45deg); top: -18%}
+.line1{left: 23%;}
+.line2{right: 23%;}
+.middle h2{text-align: center; font-size: 45px; font-weight: 800; color: #c3c3c3;}
+.way{display: flex; justify-content: space-around; align-items: center; width: 100%; padding: 10px 40px 0px 40px; position: relative;}
+.middle1{justify-content: flex-end; align-items: center; flex-direction: column; display: flex; margin-bottom: 20%}
+.down{margin-bottom: 0%}
+.middle1 p{font-size: 30px; color: #000000; text-align: center;}
+.middleInn1, .middleInn2, .middleInn3, .middleInn4{ width: 100px; height: 100px; background-size: contain;background-repeat: no-repeat; margin: 20px;}
+.middleInn1{background-image: url(../img/2/choose.png);}
+.middleInn2{background-image: url(../img/2/quest.png);}
+.middleInn3{background-image: url(../img/2/adjust.png);}
+.middleInn4{background-image: url(../img/2/go.png);}
+
+.aboutblock:hover img{animation: rotate1 1s linear infinite;}
+.aboutblock:hover p{transition: 0.5s; color: #c3c3c3; box-shadow: inset 0 0 0 4px #FF8C00; border-color: #FF8C00;}
+@keyframes rotate1{
+	25%{transform: rotateY(90deg)}
+	50%{transform: rotateY(180deg)}
+	75%{transform: rotateY(90deg)}
+	100%{transform: rotateY(0deg)}
+}
+
+.clicker{width: 200px; height: 668px; position: fixed; left: -200px; top: 20%; background-image: url(../img/344.jpg); transition: 1.5s; z-index: 400; padding: 1%; border-radius: 0px 40px 40px 0;}
+.clickerHover{width: 65px; height: 90px; border-radius: 0 100px 100px 0; background-color: rgba(250, 180, 24, 0.6); position: absolute; right: -65px; top: 50%; display: flex; justify-content: center;align-items: center; font-weight: 600; color: #032c00; padding-right: 5px;transition: 0.5s; }
+
+.clicker:hover{left: 0px;}
+.clicker:hover .clickerHover{transform: scale(0);transform-origin:left}
+#clickerbut{width: 170px; height: 80px; margin: auto; border-radius: 20px; background-color: #FF8C00; font-weight: 800; color: white; font-size: 15px; outline: none; }
+#clickerbut:active{background-color: #c36b00;transform: scale(0.95)}
+.howmuch{width: 175px; margin: auto; position: absolute; top: 20%; left: 7%; overflow: hidden;}
+.howmuch p{font-size: 20px; color: white; text-align: center; color: #FF8C00;}
+.howmuch1{width: 175px; margin: auto; position: absolute; top: 38%; left: 7%; overflow: hidden;}
+.howmuch1 p{font-size: 20px; color: white; text-align: center;color: #FF8C00;}
+#itemclick1, #itemclick, #itemclick2, #itemclick3{font-size: 40px; color: white;}
+.howmuch2{width: 175px; margin: auto; position: absolute; top: 58%; left: 7%; overflow: hidden;}
+.howmuch2 p{font-size: 20px; color: white; text-align: center;color: #FF8C00;}
+.howmuch3{width: 170px; margin: auto; position: absolute; top: 80%; left: 7%; overflow: hidden;}
+.howmuch3 p{font-size: 20px; color: white; text-align: center;color: #FF8C00;}
+
+.contabt1{width: 100%; height: 100vh; background-color: black;}
+.vid{width: 100%; position: absolute;}
+.videocont{
+	display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; 
+}
+
+
+
+.form{display: flex; height: 100%; width: 100%; justify-content: center; align-items: center; flex-wrap: nowrap; flex-direction: column;}
+.titlechoose{font-size: 50px; color: white; height: auto; background-color: rgb(0, 0, 0); border-radius: 30px; padding: 10px; display: flex; align-items: center; opacity: .6;}
+.aimup{width: 100%; display: flex; justify-content: center; align-items: center; height: auto; flex-wrap: wrap;}
+.choice, .choice1, .choice2, .choice3{display: flex; justify-content: space-around; align-items: center; padding: 10px; width: 35%; height: auto; background-color:rgba(0, 0, 0, 0.5); position: relative; z-index: 1000; border: 2px solid rgba(255, 140, 0, 0.6); margin: 30px; ; cursor: pointer; outline: none;}
+.weightimg{background-image: url(../img/sl1nt.png);width: 76px; height: 130px;}
+.gainimg{background-image: url(../img/mas2nt.png);width: 110px; height: 130px;}
+.powerimg{background-image: url(../img/power21nt.png);width: 103px; height: 130px;}
+.relieftimg{background-image: url(../img/relief1nt.png);width: 91px; height: 130px;}
+.textschoice{display: flex; justify-content: space-around; align-items: center; flex-direction: column; width: 70%;  padding: 5px;}
+.textschoice p{text-align: center; font-size: 20px; margin: 3%; color: white;}
+.textschoice h3{text-align: center; font-size: 30px; color: white; width: 200px; margin-bottom: 6%;}
+.choiceAll:hover{opacity: 1; box-shadow: inset 0 0 0 5px #FF8C00; transition: 0.8s;}
+
+
+.secondblock{display: flex; flex-direction: column; background-color: rgba(0,0,0,1); width: 100%; justify-content: space-around; align-items: center; cursor: pointer; transition: 1s; outline: none; z-index: 2000;border: 2px solid rgba(255, 140, 0, 1); position: absolute; height: 100%; opacity: 0;}
+
+.animatio{
+	animation-name: get;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes get{
+	0%{box-shadow: inset 0 0 0 0px #FF8C00}
+	15%{box-shadow: inset 0 0 0 150px #FF8C00}
+	30%{box-shadow: inset 0 0 0 300px #FF8C00}
+	45%{box-shadow: inset 0 0 0 350px #FF8C00}
+	60%{box-shadow: inset 0 0 0 300px #FF8C00; }
+	75%{box-shadow: inset 0 0 0 150px #FF8C00; }
+	100%{box-shadow: inset 0 0 0 0px #FF8C00; opacity: 1;}
+}
+
+
+.slimGo{color: white; font-size: 20px; text-transform: uppercase; text-align: center;}
+.massDiet{color: white; font-size: 20px; text-transform: uppercase; text-align: center;}
+.massGo{color: white; font-size: 20px; text-transform: uppercase; text-align: center;}
+
+
+
+.formcont{background-color: #151516; width: 100%; height: 400px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 700; }
+.form1{ width: 80%; height: 300px;z-index: 300;  position: absolute; display: flex; justify-content: space-around; align-items: center; }
+.former{color: rgb(255, 190, 66); display: flex; justify-content: space-around; align-items: center; width: 100%; border: 4px solid #c3c3c3; }
+
+
+
+#F, #M{ width: 30px; height: 30px;}
+.inputstyleCheck{border-radius: 50%; border: 4px solid rgb(255, 190, 66); width: 50px; height: 50px; margin-right: 10px; margin-left: 10px; display: flex; justify-content: center; align-items: center;}
+.linecheck{display: flex; justify-content: flex-start; align-items: center; width: 150px; height: 30px; margin-top: 25px; flex-wrap: wrap;}
+.inputstyleCheck1{ width: 250px; height: 50px; margin-right: 10px; margin-left: 10px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.linecheck1{display: flex; justify-content: flex-start; align-items: center; width: 150px; height: 30px; margin-top: 25px; flex-wrap: wrap;}
+.wid{width: 110px; margin-top:10px;outline: none; padding: 2px;}
+.radi{display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; flex-direction: column; width: 150px; height: 300px;}
+
+.inputstyleCheck2{ width: 250px; height: 50px; margin-right: 10px; margin-left: 10px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.linecheck2{display: flex; justify-content: flex-start; align-items: center; width: 150px; height: 30px; margin-top: 25px; flex-wrap: wrap;}
+.wid{width: 110px; margin-top:10px;outline: none; padding: 2px;}
+
+.radi1{display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; flex-direction: column; width: 150px; height: 300px; padding: 10px;}
+.trauma{margin-top: 19%; display: flex; justify-content: flex-start; width: 150px; height: 50px; align-items: center;}
+.trauma p{margin-left: 10px;}
+
+
+
+#massprogram{width: 100%; height: 100vh; background-image: url(../img/desktopclub.ru_sport_basketball_4503_1920x1080.jpg); background-size: cover; margin: auto; display: none; flex-wrap: wrap; position: relative; border-top: 8px solid #c3c3c3;}
+.program{display: flex; justify-content: center; align-items: center;}
+.day{width: 5%; height: 60%; background-color: rgba(0, 0, 0, 0.8); border-radius: 20px 0 0 20px; display: flex; flex-direction: column; justify-content: space-between; padding: 2% 5px; align-items: center;}
+.day div p{text-align: center; font-size: 70px; color: darkorange;}
+.firstpart{display: flex; flex-direction: column; flex-wrap: wrap; width: 45%; height: 70%; /*background-color: rgba(0, 0, 0, 0.7);*/ border-left: 5px solid rgba(255, 190, 66, 0.70); justify-content: center; align-items: center;}
+.secondpart{display: flex;  flex-direction: column; flex-wrap: wrap; width: 45%; height: 70%; /*background-color: rgba(0, 0, 0, 0.7);*/ border-left: 5px solid rgba(255, 190, 66, 0.7); justify-content: center; align-items: center}
+.days{display: flex; justify-content: space-around; align-items: center; width: 100%; height: 30%; background-color: rgba(0,0,0,0.7); transition: 0.2s; position: relative; z-index: 500;}
+
+
+/*SLIDER*/
+.back{background-image: url(../img/back12.png); width: 30px; height: 30px; background-size: cover; background-repeat: no-repeat; transition: 0.5s; cursor: pointer; position: absolute; z-index: 600;left: 2px;}
+.go{background-image: url(../img/go12.png); width: 30px; height: 30px; background-size: cover; background-repeat: no-repeat; transition: 0.5s; cursor: pointer; position: absolute; z-index: 600;right: 2px;}
+.back:hover{background-image: url(../img/back21.png); transform: scale(1.2);}
+.go:hover{background-image: url(../img/go21.png); transform: scale(1.2);}
+
+
+
+.exercise{width: 200px; height: auto; position: relative; transition: 0.5s; border-radius: 20px;overflow: hidden;}
+.days:hover {background-color: rgba(0, 0, 0, 0.4);}
+.firstpart .exercise p{text-align: center; font-weight: 800; margin-top: 10px; transition: 0.2s; font-size: 18px; margin-bottom: 5px;}
+.secondpart .exercise p{text-align: center; font-weight: 800; margin-top: 10px; transition: 0.2s; font-size: 18px; margin-bottom: 5px;}
+.exercise .warm{font-size: 20px; color: #c3c3c3;}
+.exercise .set{font-size: 32px; color: darkorange;}
+.parttitlecolor {color: white} /*ЦВЕТА ДЛЯ ЗАГОЛОВКОВ СЕКЦИй*/
+
+
+
+#massDiet{width: 100%; height: 100vh; background-image: url(../img/2/gamb1.jpg); background-size: cover; margin: auto; display: flex; flex-wrap: wrap; position: relative; border-top: 30px solid #FF8C00; justify-content: space-around; align-items: center; flex-direction: column; }
+
+
+.dietline{width: 80%; height: 70px; position: relative; display: flex; justify-content: space-around; align-items: center; background-color: rgba(195, 195, 195, 0.56);}
+.linetime1{position: absolute; top: -100px; width: 5px; height: 100px; background-color: rgb(204, 112, 0); justify-content: center; display: flex; align-items: center;}
+.linetime1 h4{font-size: 24px; font-weight: 900; position: absolute; top: 115px;}
+
+.linetime2{position: absolute; bottom: -100px; width: 5px; height: 100px; background-color: rgb(204, 112, 0); justify-content: center; display: flex; align-items: center;}
+.linetime2 h4{font-size: 24px; font-weight: 900; position: absolute; bottom: 118px;}
+.linetime2 p{font-size: 24px; font-weight: 900; position: absolute; bottom: -80px; width: 200px; color: #cecece; text-transform: uppercase; height: 180%; display: flex; justify-content: center; align-items: flex-end; z-index: 500;}
+.linetime1 p{font-size: 24px; font-weight: 900; position: absolute; top: -80px; width: 200px; text-align: center; color: #cecece; text-transform: uppercase; height: 180%; display: flex; justify-content: center; align-items: flex-start; }
+
+
+
+
+.t2{width: 10%; height: 300px; display: flex; justify-content: center; margin-top: 150px;}
+.t1{width: 10%; height: 300px; display: flex; justify-content: center; margin-bottom: 150px;}
+
+.t1:hover .linetime1{height: 200px; top: -200px;}
+.t1:hover .linetime1 h4{top: 220px;} 
+.t1:hover .linetime1 p{top: -30px;}
+
+.t2:hover .linetime2{height: 200px; bottom: -200px;}
+.t2:hover .linetime2 h4{bottom: 225px; } 
+.t2:hover .linetime2 p{bottom: -30px; box-shadow: inset 0 0 0 200px #c76e01; color: black}
+.texttime{font-size: 18px; font-weight: 600; z-index: 1000; opacity: 0; margin-top: -15ch;}
+.t2:hover .texttime{opacity: 1;}
+.texttime li{margin-bottom: 5px; text-align: center; border-bottom: 1px solid rgb(255, 255, 255); padding: 10px;}
+
+
+/*#massPit{width: 100%; height: 100vh; background-color: rgba(173, 173, 173, 0.81); margin: auto; display: flex; flex-wrap: wrap; position: relative; border-top: 10px solid #6d6666; justify-content: space-around; align-items: center; flex-direction: column;}
+*/
+
+
+
+@media screen and (max-width: 1380px){
+   .line1{left: 26%; }
+.line2{right: 26%;}
+.choice, .choice1, .choice2, .choice3{ padding: 5px; width: 45%; margin: 10px;}
+.days{padding: 0 10px;}
+.back{width: 20px; height: 20px;}
+.go{width: 20px; height: 20px;}
+    .textschoice p{font-size: 18px;}
+    .firstpart .exercise p{font-size: 12px;}
+    .secondpart .exercise p{font-size: 12px;}
+    .icons1{width: 30px;}
+    .aboutblock img{transform: scale(0.5)}
+    .sot1 div p{margin-top: 0px; width: 150px;}
+}
+
+
+@media screen and (max-width: 1280px){
+    .textschoice p{font-size: 15px;}
+    .sot1 div p{font-size: 20px; padding: 10px 5px; }
+}
+
+@media screen and (max-width: 1080px){
+.title{width: 1000px; margin-left: 20px; margin-bottom: 20px;}
+.titleIner{font-size: 80px;}
+.sot1{flex-wrap: nowrap;}
+.days{padding: 0 10px; height: 32%; }
+.firstpart .exercise p{font-size: 12px;}
+	.secondpart .exercise p{font-size: 12px;}
+		.line1{display: none;}
+		.line2{display: none;}
+	.slogan{width: 45%; height: auto;color: #FF8C00; margin-left: 8%; margin-bottom: 20px;}
+.sloganInner{font-size: 25px;}
+    .sot1 div p{margin-top: 0px; width: 150px; height: 120px;}
+    
+}
+	
+	@media screen and (max-width: 860px){
+		.day div p{font-size: 50px;}
+		.textschoice p{display: none;}
+		.way{flex-wrap: wrap;}
+		.middle1{margin-bottom: 10%}
+		.down{margin-bottom: 10%}
+		.middle1 p{font-size: 20px; color: #000000; text-align: center;}
+		.title{width: 800px; margin-bottom: 20px;}
+		.titleIner{font-size: 60px;}
+		.slogan{width: 55%; height: auto;color: #FF8C00; margin-left: 7%; margin-bottom: 20px;}
+		.sloganInner{font-size: 20px;}
+		.sot1 div p{font-size: 20px; padding: 10px 5px; }
+        .linetime2 h4{font-size: 14px;}
+        .linetime2 p{font-size: 14px;}
+        .linetime1 h4{font-size: 14px;}
+        .linetime1 p{font-size: 14px; }
+        .sot1 div p{margin-top: 0px; width: 100%; height: auto;}
+        .clickerHover{display: none;};
+        .textschoice h3{font-size: 15px;}
+        
+        
+        .inputstyleCheck1{ width: 00px; height: 50px; margin-right: 10px; margin-left: 10px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+        
+.linecheck p{font-size: 12px;}
+.linecheck1 p{font-size: 12px;}
+.linecheck2 p{font-size: 12px;}
+        
+	}
+	
+	@media screen and (max-width: 720px){
+		.textschoice p{display: none;}
+		.choice, .choice1, .choice2, .choice3{flex-direction: column; margin: 0px; width: 30%}
+		.middle1{margin-bottom: 0%}
+		.down{margin-bottom: 0%}
+		.title{width: 600px; margin-left: 15px; margin-bottom: 20px;}
+		.titleIner{font-size: 40px;}
+		.former{flex-wrap: wrap;}
+		.former{transform: scale(0.8)}
+		.form1{ width: 120%;}
+		
+        .sot1 div p{margin-top: 0px;}
+        .sot2{font-size: 10px; }
+        .inputstyleCheck2{position: relative; left: -20px;}
+	.inputstyleCheck2 input{margin-right: 3px; margin-left: 13px;}
+.aboutblock img{transform: scale(0.5)}
+        .secondblock{flex-direction: column;}
+        .linetime1 p{font-size: 14px; width: 100px; }
+        .linetime2 p{width: 100px; height: 300px;}
+        .icons1{display: none};
+        .clickerHover{display: none;};
+        .textschoice h3{font-size: 15px;}
+	} 
+	
+@media screen and (max-width: 640px){
+.firstpart .exercise p{font-size: 8px;}
+	.secondpart .exercise p{font-size: 8px;}
+	.day div p{font-size: 40px;}
+	.choice, .choice1, .choice2, .choice3{width: 200px; }
+	.sot1 {flex-wrap: wrap;}
+		.sot1 div{width: 100px;}
+		.sot1 div p{font-size: 12px; padding: 5px 2px;}
+	.inputstyleCheck2 .traumas{font-size: 15px; text-align: center;}
+    .sot2{font-size: 10px;}
+.middle1 p{font-size: 20px; color: #000000; text-align: center;}
+.middleInn1, .middleInn2, .middleInn3, .middleInn4{ width: 50px; height: 50px; background-size: contain;background-repeat: no-repeat; margin: 10px;}
+    .linetime1 p{font-size: 10px;}
+        .linetime2 p{font-size: 10px; }
+        .texttime{font-size: 10px;}
+        .linetime2 p{font-size: 10px; }
+    .back{margin-left: -5px; margin-right: 10px;}
+    .go{margin-left: 10px; margin-right: -5px;}
+    .clickerHover{display: none;};
+    .textschoice h3{font-size: 10px;}
+}
+
+    
+    
+
+
+/*
+.cl:focus .pathcircle1{animation: dash 2s linear forwards;  pointer-events:none;}
+
+.pathcircle1{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  opacity: 0;
+}
+.svg1{
+    margin-top: -30px;
+    margin-left: -100px;
+    position: absolute;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+
+
+       <svg width="300px" height="300px" class="svg1">
+            <path class="pathcircle1" fill="rgba(0, 0, 0, 0)" stroke="rgb(255, 190, 66)" stroke-width="4" d="M80,100a75,75 0 1,0 150,0a75,75 0 1,0 -150,0"></path>
+        </svg>
+
+*/
